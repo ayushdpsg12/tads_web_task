@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Guest Lecture</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="tads_logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        background-color: black;
+      }
+      .one {
+        display: flex;
+        flex-direction: column;
+      }
+      .container div {
+        font-size: 1vw;
+        padding: 0 0.5em 0 1.8em;
+        color: white;
+        flex: 1;
+      }
+      .grpimg {
+        height: 368px;
+        width: 620px;
+        padding-right: 0px;
+        display: block;
+        margin: auto;
+      }
+      .soloimg {
+        height: 752px;
+        width: 600px;
+      }
+      .heading {
+        text-align: center;
+        font-size: 52px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .content p {
+        font-size: 16px;
+        text-align: center;
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+      @media only screen and (max-width: 800px) {
+        .container {
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+      }
+      .grpimg {
+        display: block;
+        margin: auto;
+        width: 360px;
+        height: 210px;
+      }
+      .soloimg {
+        display: block;
+        margin: auto;
+        width: 350px;
+        height: 400px;
+      }
+      .container div{
+        padding: 0;
+      }
+      .content p{
+        padding: 8px;
+      }
+      .img1{
+        padding-bottom: 30px;
+      }
+      
+  
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one">
+        <div class="content">
+          <h1 class="heading">Lt. Col. Romil Bhartawal</h1>
+          <p>
+            <br />
+            <br />An alumnus of IIT Kharagpur, he has successfully led a
+            20-member expedition to scale Mt. Everest. Amongst other adventure
+            activities, he has done 200, 300, 400, 600 km cycling brevets in one
+            year to achieve the title of a super Randonneur. Not only was he a
+            podium finisher in an Ironman event but also a certified white water
+            rafting course expert. <br /><br /><br />
+            stepping forward to face adventure, he has done bungee jumping,
+            duathlons, paramotor, parasailing, paragliding and para trooping
+            too.
+          </p>
+        </div>
+        <div class="img1">
+          <img class="grpimg" src="tadsgrp.jpg" />
+        </div>
+      </div>
+      <div class="two">
+        <img class="soloimg" src="tadssolo.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
